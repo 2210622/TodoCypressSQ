@@ -17,6 +17,7 @@ And('I press the Add button', () => {
 })
 
 And('I see that it was added to the list', () => {
+ cy.wait(1000)
  cy.get('li:last-child()').contains(todo)
 })
 

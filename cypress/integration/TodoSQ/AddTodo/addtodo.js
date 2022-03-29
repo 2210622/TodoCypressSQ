@@ -17,5 +17,6 @@ When('I press the Add button', () => {
 })
 
 Then('I see that it was added to the list', () => {
+ cy.wait(1000)
  cy.get('li').contains(todo)
 })
