@@ -1,5 +1,7 @@
 Feature: Delete a todo from the list
-    I want to delete a todo from the list
+    As a user
+    I want to click on a todo
+    So that I can delete it from the list
 
     Scenario: Deleting a todo successfully
         Given I open the main page

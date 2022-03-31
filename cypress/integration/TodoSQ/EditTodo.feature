@@ -1,5 +1,7 @@
 Feature: Edit one todo from the list
-    I want to edit one todo from the list
+    As a user
+    I want topress a button on a todo
+    So that I can edit one todo from the list
 
     Scenario: Editing a todo successfully
         Given I open the main page

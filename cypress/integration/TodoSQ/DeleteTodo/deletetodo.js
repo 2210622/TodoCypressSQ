@@ -8,7 +8,7 @@ Given('I open the main page', () => {
 })
 
 And('I have a todo on the list', () => {
- todo = "todo";
+ todo = "anything";
  cy.get('input').type(todo)
  cy.get('button').click()
  cy.wait(1000)

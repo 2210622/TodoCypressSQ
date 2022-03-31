@@ -1,5 +1,7 @@
 Feature: Add a todo to the list
-    I want to add a Todo to the list
+    As a user
+    I want to write in a text box
+    So that I can add a Todo to the list
 
     Scenario: Adding a todo successfully
         Given I open the main page

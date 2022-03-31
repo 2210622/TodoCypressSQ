@@ -1,5 +1,7 @@
 Feature: Delete all todos from the list
-    I want to delete all todos from the list
+    As a user
+    I want the delete all button
+    So that I can delete all the todos from the list
 
     Scenario: Deleting all todos successfully
         Given I open the main page
